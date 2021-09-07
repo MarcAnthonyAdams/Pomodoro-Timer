@@ -37,7 +37,8 @@ Stopping a session returns the application to the initial screen and the user is
 
 Clicking the "play" button will always start a new focus session.
 
-**Setup**
+## Setup
+
 Clone a fork of this repository and run
 
 cd pomodoro-timer
@@ -45,5 +46,5 @@ cd pomodoro-timer
 **npm install**
 
 **npm start**
- 
+
 Runs the app in the development mode. Open http://localhost:3000 to view it in the browser.
