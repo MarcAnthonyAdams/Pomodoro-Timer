@@ -11,7 +11,7 @@ When the focus time expires, an alarm plays and then the break timer starts.
 When the break time expires, the alarm plays again and then the focus timer starts.
 This application uses Bootstrap 4 for styling and Open-Iconic icons for icons.
 
- ## Initial Screen
+ ### Initial Screen
 
 The initial screen lets the user set the length of the focus and break and break sessions.
 
@@ -19,19 +19,19 @@ The "stop" button is disabled on the initial screen because the user has not yet
 
 When the user clicks the "play" button, the timer will always start a new focus session.
 
-## Active Session Screen
+### Active Session Screen
 
 After the user clicks the "play" button, the buttons to change the focus and break duration are disabled and the session timer appears.
 
 The session timer shows the type of session, either "Focusing" or "On Break", the total duration of the session, the time remaining, and a progress bar showing how much of the session is complete.
 
-## Paused Session Screen
+### Paused Session Screen
 
 If the user clicks the "pause" button, "paused" appears below the time remaining.
 
 The session timer shows the type of session, either "Focusing" or "On Break", the total duration of the session, the time remaining, and a progress bar showing how much of the session is complete.
 
-## Stoping a session
+### Stoping a session
 
 Stopping a session returns the application to the initial screen and the user is able to change the focus and break duration.
 
